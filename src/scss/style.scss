@@ -2,3 +2,128 @@
 @import 'global/*.scss';
 @import '**/_*.scss';
 @import '../components/**/*.scss';
+
+
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 0 ;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #261D1D;
+    margin-right: 50px;
+    text-decoration: none;
+    transition: 0.2s linear;
+    &:hover{
+        color:#50C8D8;
+        transition: 0.2s linear;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social {
+    display: flex;
+}
+
+.social__link {
+    margin-right: 34px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.social__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 34px;
+    &:last-child{
+        margin-right: 0;
+    }
+    
+}
+
+
+.intro{
+    background: url("/img/img__intro/Group\ 2.webp") center no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.intro__title{
+    font-family: 'Lora', serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #9A711A;
+
+    padding: 256px 0 0 212px;
+}
+
+.intro__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 400;
+
+    margin-top: 50px;
+    margin-left: 212px;
+}
+
+
+/********ABOUT**********************************************/ 
+
+.about__title {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: #261D1D;
+    text-align: center;
+    margin: 126px 0 35px;
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about__info-item {
+    width: 45%;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.about__info-item2 {
+    background: url('/img/about/t2UGveHrNzI.webp') center no-repeat;
+    background-size: cover;
+}   
